@@ -16,7 +16,7 @@ int main()
       }
       for(auto x:mp)
       {
-          if(x.first)
+          if(x.second>1)
            cout<<x.first<<"->"<<x.second<<"\n";
       }
   }
